@@ -1,0 +1,10 @@
+[
+  { "id": "mezze-platter", "name": "Mezze Platter", "description": "A generous spread of hummus, dips, warm pita and mezze favourites.", "price": 260, "tag": "Shareable", "image": "/manus-storage/async-images/kO2BdCzyN0mhdZk6RFvCvO/image-1.webp" },
+  { "id": "chicken-mandi-half", "name": "Chicken Mandi (Half)", "description": "Fragrant mandi rice with tender roast chicken and house sauces.", "price": 340, "tag": "Wilton favourite", "image": "/manus-storage/async-images/JZcAUBYQomFLFelj4jdtNr/image-2.webp" },
+  { "id": "mutton-mandi-half", "name": "Mutton Mandi (Half)", "description": "Slow-cooked mutton, spiced rice and the comfort of a shared table.", "price": 410, "tag": "Slow-cooked", "image": "/manus-storage/async-images/JZcAUBYQomFLFelj4jdtNr/image-2.webp" },
+  { "id": "chicken-biriyani", "name": "Chicken Biriyani", "description": "Basmati rice, tender chicken, fried onions and a little Kerala warmth.", "price": 150, "tag": "Classic", "image": "/manus-storage/async-images/JZcAUBYQomFLFelj4jdtNr/image-2.webp" },
+  { "id": "tandoori-quarter", "name": "Tandoori Chicken (Qtr)", "description": "Charred, smoky and served with lemon, mint and house chutney.", "price": 130, "tag": "From the grill", "image": "/manus-storage/async-images/kO2BdCzyN0mhdZk6RFvCvO/image-3.webp" },
+  { "id": "veg-fried-rice", "name": "Vegetable Fried Rice", "description": "Wok-tossed rice, seasonal vegetables and bright house seasoning.", "price": 140, "tag": "Vegetarian", "image": "/manus-storage/async-images/JZcAUBYQomFLFelj4jdtNr/image-4.webp" },
+  { "id": "honey-glazed-chicken", "name": "Honey Glazed Chicken", "description": "Crisp chicken with a sticky-sweet glaze and a gentle chilli finish.", "price": 290, "tag": "New favourite", "image": "/manus-storage/async-images/JZcAUBYQomFLFelj4jdtNr/image-5.webp" },
+  { "id": "navratan-pulao", "name": "Navratan Pulao", "description": "Fragrant rice, vegetables, nuts and dried fruit for the whole table.", "price": 200, "tag": "Vegetarian", "image": "/manus-storage/async-images/kO2BdCzyN0mhdZk6RFvCvO/image-4.webp" }
+]

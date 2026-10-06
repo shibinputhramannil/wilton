@@ -1,0 +1,23 @@
+{
+  "name": "Wilton",
+  "descriptor": "Restaurant, Roof Top Restaurant & Hotel",
+  "address": "Dhottappankulam, National Highway 212, Sultan Bathery, Kerala 673592",
+  "shortAddress": "Sultan Bathery, Wayanad",
+  "phone": "04936 226 444",
+  "phoneHref": "tel:+914936226444",
+  "takeaway": "7902 564 444",
+  "takeawayHref": "tel:+917902564444",
+  "roomReservation": "7902 534 444",
+  "roomReservationHref": "tel:+917902534444",
+  "orderWhatsapp": "+917902564444",
+  "hours": "7 AM – 11 PM daily",
+  "email": "replace-with-restaurant-email@wilton.example",
+  "mapEmbedUrl": "https://www.google.com/maps?q=Wilton+Restaurant+Hotel+Sultan+Bathery+Kerala&output=embed",
+  "socials": {
+    "facebook": "#",
+    "instagram": "#",
+    "youtube": "#",
+    "tripadvisor": "#"
+  },
+  "notice": "Social links, email, map pin, and proposed offer prices are ready to be replaced with Wilton’s confirmed details."
+}

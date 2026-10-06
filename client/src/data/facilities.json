@@ -1,0 +1,10 @@
+[
+  { "title": "Private celebrations", "description": "A comfortable corner for birthdays, family tables and small gatherings.", "icon": "sparkles" },
+  { "title": "Roof top restaurant", "description": "Open-air evenings, warm lights and a slower Wayanad rhythm.", "icon": "sun" },
+  { "title": "Multi-cuisine kitchen", "description": "Kerala, mandi, biriyani, tandoor, mezze and Chinese favourites.", "icon": "utensils" },
+  { "title": "A/c rooms", "description": "Rest easy in the heart of Sultan Bathery with simple, clean comfort.", "icon": "bed" },
+  { "title": "24-hour check-in/out", "description": "Flexible stays for road trips, families and late arrivals.", "icon": "clock" },
+  { "title": "Free high-speed Wi-Fi", "description": "Stay connected while you plan the next Wayanad stop.", "icon": "wifi" },
+  { "title": "Covered parking", "description": "On-site covered parking to keep the journey easy.", "icon": "car" },
+  { "title": "24-hour security", "description": "A looked-after stay from check-in to checkout.", "icon": "shield" }
+]
