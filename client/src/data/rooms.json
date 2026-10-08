@@ -1,5 +1,20 @@
 [
-  { "name": "Deluxe Room", "meta": "A/c · 2 guests", "description": "A calm base after a day of food, forests and Wayanad roads.", "image": "/manus-storage/async-images/kO2BdCzyN0mhdZk6RFvCvO/image-5.webp" },
-  { "name": "Family Room", "meta": "A/c · 3–4 guests", "description": "More room for the people who make the trip memorable.", "image": "/manus-storage/async-images/JZcAUBYQomFLFelj4jdtNr/image-4.webp" },
-  { "name": "Comfort Stay", "meta": "A/c · Flexible check-in", "description": "Clean, practical comfort for a night in Sultan Bathery.", "image": "/manus-storage/async-images/JZcAUBYQomFLFelj4jdtNr/image-4.webp" }
+  {
+    "name": "Deluxe Room",
+    "meta": "A/c · 2 guests",
+    "description": "A calm base after a day of food, forests and Wayanad roads.",
+    "image": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&auto=format&fit=crop"
+  },
+  {
+    "name": "Family Room",
+    "meta": "A/c · 3-4 guests",
+    "description": "More room for the people who make the trip memorable.",
+    "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&auto=format&fit=crop"
+  },
+  {
+    "name": "Comfort Stay",
+    "meta": "A/c · Flexible check-in",
+    "description": "Clean, practical comfort for a night in Sultan Bathery.",
+    "image": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&auto=format&fit=crop"
+  }
 ]
