@@ -1,82 +1,11 @@
 [
-  {
-    "src": "/manus-storage/async-images/JZcAUBYQomFLFelj4jdtNr/image-1.webp",
-    "alt": "A warm shared table at Wilton",
-    "caption": "A table made for sharing"
-  },
-  {
-    "src": "/manus-storage/async-images/JZcAUBYQomFLFelj4jdtNr/image-3.webp",
-    "alt": "Wilton rooftop dining at dusk",
-    "caption": "Evenings on the rooftop"
-  },
-  {
-    "src": "/manus-storage/async-images/JZcAUBYQomFLFelj4jdtNr/image-5.webp",
-    "alt": "Wilton takeaway meal packed for collection",
-    "caption": "Take away, made with care"
-  },
-  {
-    "src": "/manus-storage/async-images/kO2BdCzyN0mhdZk6RFvCvO/image-1.webp",
-    "alt": "Arabic mezze served on a shared platter",
-    "caption": "Generous by nature"
-  },
-  {
-    "src": "/manus-storage/async-images/kO2BdCzyN0mhdZk6RFvCvO/image-5.webp",
-    "alt": "Warmly lit Wilton hotel room",
-    "caption": "A good night's rest"
-  },
-  {
-    "src": "/manus-storage/async-images/JZcAUBYQomFLFelj4jdtNr/image-2.webp",
-    "alt": "Chicken mandi platter with fragrant rice",
-    "caption": "Mandi, made for sharing"
-  },
-  {
-    "src": "/manus-storage/async-images/QYFEQVeEN1jCT65DXWN9Yu/image-1.webp",
-    "alt": "Wilton team serving a shared table",
-    "caption": "Service with a smile"
-  },
-  {
-    "src": "/manus-storage/async-images/QYFEQVeEN1jCT65DXWN9Yu/image-2.webp",
-    "alt": "Wilton rooftop terrace at blue hour",
-    "caption": "Rooftop blue hour"
-  },
-  {
-    "src": "/manus-storage/async-images/QYFEQVeEN1jCT65DXWN9Yu/image-3.webp",
-    "alt": "Chai and a sweet finish at Wilton",
-    "caption": "A sweet finish"
-  },
-  {
-    "src": "/manus-storage/async-images/QYFEQVeEN1jCT65DXWN9Yu/image-4.webp",
-    "alt": "Green Wayanad hills from a Wilton room",
-    "caption": "Wayanad outside"
-  },
-  {
-    "src": "/manus-storage/async-images/QYFEQVeEN1jCT65DXWN9Yu/image-5.webp",
-    "alt": "Plated dishes ready at the Wilton kitchen pass",
-    "caption": "From the kitchen"
-  },
-  {
-    "src": "/manus-storage/async-images/JZcAUBYQomFLFelj4jdtNr/image-2.webp",
-    "alt": "A fragrant mandi platter for sharing",
-    "caption": "A table with room"
-  },
-  {
-    "src": "/manus-storage/async-images/JZcAUBYQomFLFelj4jdtNr/image-4.webp",
-    "alt": "A calm Wilton hotel room with warm light",
-    "caption": "Stay a while"
-  },
-  {
-    "src": "/manus-storage/async-images/kO2BdCzyN0mhdZk6RFvCvO/image-2.webp",
-    "alt": "Kerala biriyani served warm",
-    "caption": "The house classic"
-  },
-  {
-    "src": "/manus-storage/async-images/kO2BdCzyN0mhdZk6RFvCvO/image-3.webp",
-    "alt": "Tandoori chicken ready to share",
-    "caption": "Char, smoke, flame"
-  },
-  {
-    "src": "/manus-storage/async-images/kO2BdCzyN0mhdZk6RFvCvO/image-4.webp",
-    "alt": "A colourful Kerala table spread",
-    "caption": "Rooted here"
-  }
+  { "src": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&auto=format&fit=crop", "alt": "A warm shared table at Wilton", "caption": "A table made for sharing" },
+  { "src": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&auto=format&fit=crop", "alt": "Wilton rooftop dining at dusk", "caption": "Evenings on the rooftop" },
+  { "src": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&auto=format&fit=crop", "alt": "Chicken mandi platter with fragrant rice", "caption": "Mandi, made for sharing" },
+  { "src": "https://images.unsplash.com/photo-1541544741938-0af808871cc0?w=800&auto=format&fit=crop", "alt": "Arabic mezze served on a shared platter", "caption": "Generous by nature" },
+  { "src": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&auto=format&fit=crop", "alt": "Warmly lit Wilton hotel room", "caption": "A good night's rest" },
+  { "src": "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?w=800&auto=format&fit=crop", "alt": "Kerala biriyani served warm", "caption": "The house classic" },
+  { "src": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?w=800&auto=format&fit=crop", "alt": "Tandoori chicken ready to share", "caption": "Char, smoke, flame" },
+  { "src": "https://images.unsplash.com/photo-1610057099431-d73a1c9d2f2f?w=800&auto=format&fit=crop", "alt": "A colourful Kerala table spread", "caption": "Rooted here" },
+  { "src": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=800&auto=format&fit=crop", "alt": "Chai and a sweet finish at Wilton", "caption": "A sweet finish" }
 ]
