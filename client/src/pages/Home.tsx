@@ -44,7 +44,7 @@ const heroSlides = [
   { eyebrow: "Multi-cuisine, one warm table", title: "Mandi, Biriyani & Beyond", copy: "From slow-cooked mandi to Kerala classics, bring the whole table hungry.", cta: "Explore the menu", href: "/menu", image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=1600&auto=format&fit=crop" },
   { eyebrow: "Open-air Wayanad evenings", title: "Dine on Our Rooftop", copy: "A little more sky, a little more time, and dinner worth lingering over.", cta: "See the gallery", href: "/gallery", image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1600&auto=format&fit=crop" },
   { eyebrow: "Stay in Sultan Bathery", title: "Stay With Us in Sultan Bathery", copy: "A comfortable room, a good night's rest and an easy start to tomorrow.", cta: "View rooms", href: "/rooms", image: "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=1600&auto=format&fit=crop" },
-  { eyebrow: "Made for the road home", title: "Take Away in Minutes", copy: "Call ahead, collect warm favourites and get back to the people waiting.", cta: "Order for pickup", href: "#offers", image: "https://images.unsplash.com/photo-1527477378408-1bc09c21311b?w=1600&auto=format&fit=crop" },
+  { eyebrow: "Made for the road home", title: "Take Away in Minutes", copy: "Call ahead, collect warm favourites and get back to the people waiting.", cta: "Order for pickup", href: "#offers", image: "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?w=1600&auto=format&fit=crop" },
 ];
 
 const facilityIcons = { sparkles: Sparkles, sun: Sun, utensils: Utensils, bed: BedDouble, clock: Clock3, wifi: Wifi, car: CarFront, shield: ShieldCheck } as const;
@@ -105,7 +105,7 @@ export function Header({ onCart, solid = false }: { onCart: () => void; solid?: 
   return <>
     <div className="utility-bar"><div className="site-container utility-inner"><span>Take Away <a href={site.takeawayHref}>{site.takeaway}</a></span><span>Room Reservation <a href={site.roomReservationHref}>{site.roomReservation}</a></span></div></div>
     <header className={`site-header ${scrolled || solid ? "site-header-scrolled" : ""}`}>
-      <div className="site-container header-inner"><Logo light={!scrolled} />
+      <div className="site-container header-inner"><Logo light={!scrolled && !solid} />
         <nav className="desktop-nav" aria-label="Main navigation">{links.map(([label, href]) => <a key={label} href={href}>{label}</a>)}<a className="nav-order" href="#offers">Order Now <ArrowUpRight size={15} /></a><button className="cart-button" onClick={onCart} aria-label={`Open cart with ${count} items`}><ShoppingBag size={18} /><span>{count}</span></button></nav>
         <div className="mobile-header-actions"><button className="cart-button" onClick={onCart} aria-label={`Open cart with ${count} items`}><ShoppingBag size={18} /><span>{count}</span></button><button className="menu-toggle" onClick={() => setMobileOpen((open) => !open)} aria-label={mobileOpen ? "Close menu" : "Open menu"}>{mobileOpen ? <X /> : <MenuIcon />}</button></div>
       </div>
@@ -116,6 +116,7 @@ export function Header({ onCart, solid = false }: { onCart: () => void; solid?: 
 
 function Hero({ onCart }: { onCart: () => void }) {
   const [active, setActive] = useState(0);
+  useEffect(() => { heroSlides.forEach((s) => { const img = new Image(); img.src = s.image; }); }, []);
   useEffect(() => { const timer = window.setInterval(() => setActive((current) => (current + 1) % heroSlides.length), 5000); return () => window.clearInterval(timer); }, []);
   const slide = heroSlides[active];
   return <section className="hero" id="top" aria-roledescription="carousel" aria-label="Wilton highlights">
@@ -125,6 +126,11 @@ function Hero({ onCart }: { onCart: () => void }) {
     <div className="hero-controls site-container"><div className="hero-progress" aria-hidden="true"><span style={{ width: `${((active + 1) / heroSlides.length) * 100}%` }} /></div><div className="hero-control-row"><span className="hero-count">0{active + 1} <i>/ 0{heroSlides.length}</i></span><div className="hero-arrows"><button onClick={() => setActive((active - 1 + heroSlides.length) % heroSlides.length)} aria-label="Previous slide"><ChevronLeft /></button><button onClick={() => setActive((active + 1) % heroSlides.length)} aria-label="Next slide"><ChevronRight /></button></div></div></div>
     <div className="hero-quick-actions"><button className="quick-order" onClick={onCart}><ShoppingBag size={16} /> Order Now</button><a href="#rooms"><BedDouble size={16} /> Reserve a Room</a><a href="#contact"><MessageCircle size={16} /> Contact</a></div>
   </section>;
+}
+
+function BigHeadings() {
+  const line = (text: string, reverse = false) => <div className={`bh-row ${reverse ? "bh-reverse" : ""}`} aria-hidden="true">{[0, 1].map((n) => <h2 key={n}>{`${text} · `.repeat(3)}</h2>)}</div>;
+  return <section className="big-headings" aria-label="Wilton, chosen among the highly recommended">{line("Recipes in our DNA")}{line("Mandi · Biriyani · Kerala", true)}</section>;
 }
 
 function AboutSection() {
@@ -188,7 +194,7 @@ export function MobileBottomBar({ onCart }: { onCart: () => void }) {
 
 function HomePage() {
   const [cartOpen, setCartOpen] = useState(false);
-  return <div className="wilton-site"><Header onCart={() => setCartOpen(true)} /><main><Hero onCart={() => setCartOpen(true)} /><AboutSection /><OffersSection onCart={() => setCartOpen(true)} /><CategorySection /><FacilitiesSection /><RoomsSection /><GallerySection /><TestimonialsSection /><ContactSection /></main><Footer /><MobileBottomBar onCart={() => setCartOpen(true)} /><CartDrawer open={cartOpen} onClose={() => setCartOpen(false)} /></div>;
+  return <div className="wilton-site"><Header onCart={() => setCartOpen(true)} /><main><Hero onCart={() => setCartOpen(true)} /><BigHeadings /><AboutSection /><OffersSection onCart={() => setCartOpen(true)} /><CategorySection /><FacilitiesSection /><RoomsSection /><GallerySection /><TestimonialsSection /><ContactSection /></main><Footer /><MobileBottomBar onCart={() => setCartOpen(true)} /><CartDrawer open={cartOpen} onClose={() => setCartOpen(false)} /></div>;
 }
 
 export default function Home() { return <CartProvider><HomePage /></CartProvider>; }
