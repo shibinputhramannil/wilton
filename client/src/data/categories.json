@@ -1,10 +1,10 @@
 [
-  { "name": "Mandi", "eyebrow": "Slow-cooked & shared", "description": "Fragrant rice, roast meats and the joy of eating together.", "image": "/manus-storage/async-images/JZcAUBYQomFLFelj4jdtNr/image-2.webp", "accent": "maroon" },
-  { "name": "Biriyani & Rice", "eyebrow": "The house classics", "description": "Layered, aromatic and made for a second helping.", "image": "/manus-storage/async-images/JZcAUBYQomFLFelj4jdtNr/image-5.webp", "accent": "gold" },
-  { "name": "Tandoor & Grills", "eyebrow": "Char, smoke & flame", "description": "From the clay oven, straight to your table.", "image": "/manus-storage/async-images/kO2BdCzyN0mhdZk6RFvCvO/image-3.webp", "accent": "orange" },
-  { "name": "Arabic & Mezze", "eyebrow": "Bright & generous", "description": "Hummus, dips, breads and sharing plates.", "image": "/manus-storage/async-images/kO2BdCzyN0mhdZk6RFvCvO/image-1.webp", "accent": "cream" },
-  { "name": "Chinese", "eyebrow": "Wok-tossed", "description": "Comforting classics with a Wilton rhythm.", "image": "/manus-storage/async-images/JZcAUBYQomFLFelj4jdtNr/image-4.webp", "accent": "maroon" },
-  { "name": "Kerala Specials", "eyebrow": "Rooted here", "description": "The flavours that taste like coming home.", "image": "/manus-storage/async-images/kO2BdCzyN0mhdZk6RFvCvO/image-5.webp", "accent": "gold" },
-  { "name": "Veg", "eyebrow": "From the garden", "description": "Colourful plates, fresh crunch and generous portions.", "image": "/manus-storage/async-images/JZcAUBYQomFLFelj4jdtNr/image-1.webp", "accent": "orange" },
-  { "name": "Desserts & Beverages", "eyebrow": "A sweet finish", "description": "Chai, coolers, puddings and the last little spoonful.", "image": "/manus-storage/async-images/JZcAUBYQomFLFelj4jdtNr/image-3.webp", "accent": "cream" }
+  { "name": "Mandi", "eyebrow": "Slow-cooked & shared", "description": "Fragrant rice, roast meats and the joy of eating together.", "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&auto=format&fit=crop", "accent": "maroon" },
+  { "name": "Biriyani & Rice", "eyebrow": "The house classics", "description": "Layered, aromatic and made for a second helping.", "image": "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?w=800&auto=format&fit=crop", "accent": "gold" },
+  { "name": "Tandoor & Grills", "eyebrow": "Char, smoke & flame", "description": "From the clay oven, straight to your table.", "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?w=800&auto=format&fit=crop", "accent": "orange" },
+  { "name": "Arabic & Mezze", "eyebrow": "Bright & generous", "description": "Hummus, dips, breads and sharing plates.", "image": "https://images.unsplash.com/photo-1541544741938-0af808871cc0?w=800&auto=format&fit=crop", "accent": "cream" },
+  { "name": "Chinese", "eyebrow": "Wok-tossed", "description": "Comforting classics with a Wilton rhythm.", "image": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=800&auto=format&fit=crop", "accent": "maroon" },
+  { "name": "Kerala Specials", "eyebrow": "Rooted here", "description": "The flavours that taste like coming home.", "image": "https://images.unsplash.com/photo-1610057099431-d73a1c9d2f2f?w=800&auto=format&fit=crop", "accent": "gold" },
+  { "name": "Veg", "eyebrow": "From the garden", "description": "Colourful plates, fresh crunch and generous portions.", "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop", "accent": "orange" },
+  { "name": "Desserts & Beverages", "eyebrow": "A sweet finish", "description": "Chai, coolers, puddings and the last little spoonful.", "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=800&auto=format&fit=crop", "accent": "cream" }
 ]
